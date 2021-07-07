@@ -1,0 +1,92 @@
+h1 {
+ margin-left: 580px;
+}
+
+#conteneur
+{
+    border: 2px solid #444;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 415px;
+    box-shadow: 14px 18px 5px black;
+}
+
+.element {
+    width: 166px;
+    height: 124px;
+}
+
+.element:nth-child(1){
+    background-color: red;
+}
+
+.element:nth-child(2){
+    background-color: blue;
+}
+
+.element:nth-child(3){
+    background-color: green;
+}
+
+.element:nth-child(4){
+    background-color: yellow;
+}
+
+.element:nth-child(5){
+    background-color: white;
+}
+
+.element:nth-child(6){
+    background-color: red;
+}
+
+.element:nth-child(7){
+    background-color: blue;
+}
+
+.element:nth-child(8){
+    background-color: green;
+}
+
+.element:nth-child(9){
+    background-color: yellow;
+}
+
+/*      hover      */
+
+.element:nth-child(1):hover {
+    background-color: blue;
+}
+
+.element:nth-child(2):hover{
+    background-color: green;
+}
+
+.element:nth-child(3):hover{
+    background-color: yellow;
+}
+
+.element:nth-child(4):hover{
+    background-color: white;
+}
+
+.element:nth-child(5):hover{
+    background-color: red;
+}
+
+.element:nth-child(6):hover{
+    background-color: blue;
+}
+
+.element:nth-child(7):hover{
+    background-color: green;
+}
+
+.element:nth-child(8):hover{
+    background-color: yellow;
+}
+
+.element:nth-child(9):hover{
+    background-color: white;
+}
